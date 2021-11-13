@@ -1,3 +1,3 @@
-# cis241
+# CIS241
 My first Github page.
 Austin H
