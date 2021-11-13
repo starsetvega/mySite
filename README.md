@@ -1,3 +1,3 @@
 # cis241
-my first github page
-austin h
+My first Github page.
+Austin H
