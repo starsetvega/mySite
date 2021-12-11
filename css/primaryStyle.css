@@ -11,11 +11,20 @@ html{
 
 h1{
     font-family: Apparat;
+    color: yellow;
+}
+
+h3{
+    color: turquoise;
 }
 
 article{
     background-color: rgb(10, 10, 10);
-    color: hsl(140, 100%, 57%);
+    color: hsl(0, 0%, 100%);
+}
+
+body{
+    color: whitesmoke;
 }
 
 a{
@@ -38,4 +47,8 @@ a:hover{
 
 a:active{
     color: rgb(255, 42, 70);
+}
+
+.thingy{
+    font-size: 16pt;
 }
