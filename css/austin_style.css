@@ -1,12 +1,9 @@
-@font-face{
-    font-family: 'Apparat';
-    src: url("https://use.typekit.net/qpw7nnq.css")
-}
-
 :root {
     --main-bg: #333745;
     --font-body-color: #EDF2EF;
     --font-title-color: #FF5971;
+    --font-main-nav-color: #D4D9D6;
+    --font-main-nav-hover-color: #E1E6E3;
 }
 
 body{
@@ -14,6 +11,7 @@ body{
     background-color: var(--main-bg);
     color: var(--font-body-color);
     font-family: Roboto, Helvetica, sans-serif;
+    text-align: center;
 }
 
 h1, h2, h3{
@@ -34,22 +32,22 @@ p{
     font-size: 1rem;
 }
 
-a{
-    color: var(--font-body-color);
+.main-nav-item{
+    color: var(--font-main-nav-color);
     font-size: 1.25rem;
     font-weight: bold;
     margin-right: 2rem;
     text-decoration: none;
-    transition: font 0.2s ease;
-
+    transition: font 0.2s ease-in-out;
 }
 
-a:hover{
-    color: var(--font-title-color);
+.main-nav-item:hover{
+    color: var(--font-main-nav-hover-color);
     font-size: 1.35rem;
+    text-shadow: 0 0 0.125rem #ffffff;
 }
 
-nav {
+.main-nav {
     background-color: #1E2029;
     margin: 0;
     padding: 0.5rem;
@@ -63,5 +61,11 @@ nav {
     margin-top: 0;
     font-family: ador-hairline, sans-serif;
     font-size: 3rem;
+}
+
+#home-body{
+    text-align: left;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
