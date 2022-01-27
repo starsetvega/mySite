@@ -8,7 +8,7 @@
 
     --font-link-color: #6194d6;
     --font-link-visited-color: #63729e;
-    --font-link-active-color: #006eff;
+    --font-link-active-color: #398af3;
 }
 
 body{
@@ -38,7 +38,8 @@ p{
 }
 
 a{
-    color: var(--font-link-color)
+    color: var(--font-link-color);
+    transition: all 0.2s ease-in-out;
 }
 
 a:visited{
@@ -46,7 +47,7 @@ a:visited{
 
 }
 
-a:active{
+a:active, a:hover{
     color: var(--font-link-active-color)
 
 }
