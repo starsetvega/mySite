@@ -1,5 +1,6 @@
 :root {
     --main-bg: #333745;
+    --nav-bg: #1E2029;
     --font-body-color: #EDF2EF;
     --font-title-color: #FF5971;
 
@@ -74,7 +75,7 @@ footer{
 }
 
 .main-nav {
-    background-color: #1E2029;
+    background-color: var(--nav-bg);
     margin: auto;
     width: 80%;
     padding: 0.5rem;
