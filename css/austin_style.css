@@ -12,7 +12,7 @@
 }
 
 body{
-    
+    text-size-adjust: none;
     background-color: var(--main-bg);
     color: var(--font-body-color);
     font-family: Roboto, Helvetica, sans-serif;
@@ -52,9 +52,14 @@ a:active, a:hover{
 
 }
 
+footer{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
 .main-nav-item, .main-nav-item:visited, .main-nav-item:active{
     color: var(--font-main-nav-color);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 2rem;
     text-decoration: none;
@@ -69,20 +74,26 @@ a:active, a:hover{
 
 .main-nav {
     background-color: #1E2029;
-    margin: 0 15% 0 15%;
+    margin: auto;
+    width: 80%;
     padding: 0.5rem;
     border: none;
     border-radius: 0.5rem;
 }
 
 .bottom-container{
+    font-size: 0.9rem;
     position: relative;
     margin-top: 5rem;
     margin-bottom: auto;
-}
+    }
+
+
 
 #title{
-    margin: 10% 15% 0 15%;
+    margin: auto;
+    margin-top: 7.5%;
+    width: 90%;
 }
 
 #subtitle {
@@ -95,7 +106,7 @@ a:active, a:hover{
     position: relative;
     text-align: left;
     margin: auto;
-    width: 75%;
+    width: 80%;
     text-indent: 2rem;
 }
 
