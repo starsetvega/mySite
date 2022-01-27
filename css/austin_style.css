@@ -55,7 +55,7 @@ a:active{
     color: var(--font-main-nav-color);
     font-size: 1.25rem;
     font-weight: bold;
-    margin-right: 2rem;
+    margin: 2rem;
     text-decoration: none;
     transition: font 0.2s ease-in-out;
 }
@@ -68,8 +68,10 @@ a:active{
 
 .main-nav {
     background-color: #1E2029;
-    margin: 0;
+    margin: 0 15% 0 15%;
     padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
 }
 
 .bottom-container{
@@ -92,8 +94,6 @@ a:active{
     position: relative;
     text-align: left;
     margin: auto;
-    /* margin-left: 10rem;
-    margin-right: 10rem; */
     width: 75%;
     text-indent: 2rem;
 }
