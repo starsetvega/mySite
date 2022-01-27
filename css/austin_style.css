@@ -13,6 +13,7 @@
 
 body{
     text-size-adjust: none;
+    font-size-adjust: none;
     background-color: var(--main-bg);
     color: var(--font-body-color);
     font-family: Roboto, Helvetica, sans-serif;
