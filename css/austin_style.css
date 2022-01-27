@@ -33,11 +33,11 @@ p{
     font-size: 1rem;
 }
 
-a{
+a, a:visited, a:active{
     color: var(--font-link-color)
 }
 
-.main-nav-item{
+.main-nav-item, .main-nav-item:visited, .main-nav-item:active{
     color: var(--font-main-nav-color);
     font-size: 1.25rem;
     font-weight: bold;
