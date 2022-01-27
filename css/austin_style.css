@@ -70,5 +70,11 @@ p{
     /* margin-left: 10rem;
     margin-right: 10rem; */
     width: 75%;
+    text-indent: 2rem;
+}
+
+#home-body-first-sentence{
+    text-indent: 0;
+    font-weight: bold;
 }
 
