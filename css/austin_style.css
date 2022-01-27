@@ -3,52 +3,51 @@
     src: url("https://use.typekit.net/qpw7nnq.css")
 }
 
-html{
-    background-color: rgb(10, 10, 10);
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1{
-    font-family: Apparat;
-    color: yellow;
-}
-
-h3{
-    color: turquoise;
-}
-
-article{
-    background-color: rgb(10, 10, 10);
-    color: hsl(0, 0%, 100%);
+:root {
+    --main-bg: #333745;
+    --font-body-color: #EDF2EF;
+    --font-title-color: #FF5971;
 }
 
 body{
-    color: whitesmoke;
+    
+    background-color: var(--main-bg);
+    color: var(--font-body-color);
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+h1, h2, h3{
+    font-weight: bolder;
+    color: var(--font-title-color);
+}
+
+h2, h3 {
+    color: var(--font-body-color);
+}
+
+h1{
+    font-size: 5rem;
+}
+
+p{
+    font-size: 1rem;
 }
 
 a{
-    font-size: 24pt;
-    padding: 20px;
-    text-align: center;
-}
-
-a:link{
-    color: rgb(255, 90, 134);
-}
-
-a:visited{
-    color: rgb(140, 41, 115);
+    color: var(--font-body-color);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-right: 2rem;
+    text-decoration: none;
 }
 
 a:hover{
-    color: rgb(255, 166, 211);
+    color: var(--font-title-color);
+    font-size: 1.35rem;
 }
 
-a:active{
-    color: rgb(255, 42, 70);
-}
-
-.thingy{
-    font-size: 16pt;
+nav {
+    background-color: #1E2029;
+    margin: 0;
+    padding: 0.5rem;
 }
