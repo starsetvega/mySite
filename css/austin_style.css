@@ -40,6 +40,8 @@ a{
     font-weight: bold;
     margin-right: 2rem;
     text-decoration: none;
+    transition: font 0.2s ease;
+
 }
 
 a:hover{
