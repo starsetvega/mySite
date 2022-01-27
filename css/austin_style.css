@@ -2,9 +2,13 @@
     --main-bg: #333745;
     --font-body-color: #EDF2EF;
     --font-title-color: #FF5971;
+
     --font-main-nav-color: #D4D9D6;
     --font-main-nav-hover-color: #E1E6E3;
-    --font-link-color: #FF5971;
+
+    --font-link-color: #6194d6;
+    --font-link-visited-color: #63729e;
+    --font-link-active-color: #006eff;
 }
 
 body{
@@ -33,8 +37,18 @@ p{
     font-size: 1rem;
 }
 
-a, a:visited, a:active{
+a{
     color: var(--font-link-color)
+}
+
+a:visited{
+    color: var(--font-link-visited-color)
+
+}
+
+a:active{
+    color: var(--font-link-active-color)
+
 }
 
 .main-nav-item, .main-nav-item:visited, .main-nav-item:active{
