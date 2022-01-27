@@ -69,7 +69,7 @@ footer{
 
 .main-nav-item:hover{
     color: var(--font-main-nav-hover-color);
-    font-size: 1.35rem;
+    font-size: 1.75rem;
     text-shadow: 0 0 0.125rem #ffffff;
 }
 
