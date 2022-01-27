@@ -4,6 +4,7 @@
     --font-title-color: #FF5971;
     --font-main-nav-color: #D4D9D6;
     --font-main-nav-hover-color: #E1E6E3;
+    --font-link-color: #FF5971;
 }
 
 body{
@@ -32,6 +33,10 @@ p{
     font-size: 1rem;
 }
 
+a{
+    color: var(--font-link-color)
+}
+
 .main-nav-item{
     color: var(--font-main-nav-color);
     font-size: 1.25rem;
@@ -51,6 +56,12 @@ p{
     background-color: #1E2029;
     margin: 0;
     padding: 0.5rem;
+}
+
+.bottom-container{
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: auto;
 }
 
 #title{
