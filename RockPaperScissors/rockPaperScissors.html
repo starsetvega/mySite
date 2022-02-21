@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Austin's Website</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="A cool website all about Austin">
+    <meta name="author" content="Austin Hagel">
+    <link rel="icon" href="..\media\favicon_io\favicon.ico">
+    <link rel="stylesheet" href="..\css\austin_style.css" />
+    <link rel="stylesheet" href="rockPaperScissors.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/yoj8pub.css">
+    <script defer async src="rockPaperScissors.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1 id="title">Rock Paper Scissors</h1>
+        <h2 id="subtitle">A Sweet Minigame Demo</h2>
+    </div>
+    
+    </br>
+
+    <div class="main-nav">
+        <nav>
+            <a href="..\index.html" class="main-nav-item">Home</a>
+            <a href="https://shop.austinhagel.com" class="main-nav-item" target="_blank">My Shop</a>
+            <a href="RockPaperScissors/rockPaperScissors.html" class="main-nav-item">Rock Paper Scissors Game</a>            
+        </nav>
+    </div>    
+    <br>
+
+    <div id="game-section">
+        <div id="game-start-placeholder"></div>
+        <div id="rock" class="game-image rock"></div>
+        <div id="paper" class="game-image paper"></div>
+        <div id="scissors" class="game-image scissors"></div>
+        <div id="game-buttons">
+            <button onClick="PlayerChoseRock()" id="rock-button" class="button game-button rock">Rock</button>
+            <button onClick="PlayerChosePaper()" id="paper-button" class="button game-button paper">Paper</button>
+            <button onClick="PlayerChoseScissors()" id="scissors-button" class="button game-button scissors">Scissors</button>
+        </div>
+        <br>
+        <div id="result">Who will win?</div>
+    </div>
+
+    <a href="https://www.vecteezy.com/free-vector/rock-paper-scissors">Rock Paper Scissors Vectors by Vecteezy</a>
+    <footer>©2022 Austin Hagel</footer>
+</body>
+
+</html>

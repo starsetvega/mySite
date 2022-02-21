@@ -1,0 +1,59 @@
+h1 {
+    color:deepskyblue
+}
+
+img {
+    display: block;
+    text-align: center;
+}
+
+.button {
+    transition: all 0.2s ease-in-out;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: .3em;
+    color: white;
+    padding: 15px 32px;
+    margin: 1rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button:hover {
+      font-size: 24px;
+      font-weight: bold;
+  }
+
+.game-image, #game-start-placeholder{
+    height: 15rem;
+    width: 15rem; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#rock {
+    background-image: url("../media/images/rockPaperScissorsImages/rock.png");
+}
+
+#paper {
+    background-image: url("../media/images/rockPaperScissorsImages/paper.png");    
+}
+
+#scissors {
+    background-image: url("../media/images/rockPaperScissorsImages/scissors.png");    
+}
+
+#game-start-placeholder {
+    background-image: url("../media/images/rockPaperScissorsImages/game_start_placeholder.png");
+}
+
+#game-section {
+    margin-bottom: 5rem;
+}
